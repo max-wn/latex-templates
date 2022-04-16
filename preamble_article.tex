@@ -17,15 +17,17 @@
 \setlength{\parskip}{12pt}   % length between paragraphs
 
 \usepackage[backend=biber, style=authoryear-icomp]{biblatex} % add bibliography support
-\addbibresource{~/latex-templates/biblio.bib}                % path to bibliography base
+\addbibresource{$HOME/latex-templates/biblio.bib}            % path to bibliography base
 
-\usepackage{titleps} % add headers support
-\newpagestyle{main}{
-\setheadrule{0.4pt}
-\sethead{лево}{центр}{право}
-\setfootrule{0.4pt}
-\setfoot{лево}{\thepage}{право}
-}
-\pagestyle{main}
+\usepackage{indentfirst} % first paragraph with red str
+
+%\usepackage{titleps} % add headers support
+%\newpagestyle{main}{
+%\setheadrule{0.4pt}
+%\sethead{лево}{центр}{право}
+%\setfootrule{0.4pt}
+%\setfoot{лево}{\thepage}{право}
+%}
+%\pagestyle{main}
 
 \usepackage{soulutf8} % add style mods
