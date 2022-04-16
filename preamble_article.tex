@@ -1,4 +1,31 @@
-\documentclass[a4paper, 12pt]{article}
-\usepackage[english, russian]{babel}
-\usepackage[T2A]{fontenc}
-\usepackage[utf8]{inputenc}
+\documentclass[a4paper,12pt]{article}
+
+\usepackage[english,russian]{babel} % add eng,rus(base) package
+\usepackage[T1,T2A]{fontenc}        % add eng,rus encoding support
+\usepackage[utf8]{inputenc}         % add UTF8 support
+
+\usepackage{amsmath, amsfonts, amssymb, amsthm, mathtools} % add math support
+
+\usepackage{geometry}  % add document's fields correction support
+\geometry{top=25mm}    % top field
+\geometry{bottom=30mm} % bottom field
+\geometry{left=20mm}   % left field
+\geometry{right=20mm}  % right field
+
+\linespread{1}               % length between str
+\setlength{\parindent}{20pt} % red str
+\setlength{\parskip}{12pt}   % length between paragraphs
+
+\usepackage[backend=biber, style=authoryear-icomp]{biblatex} % add bibliography support
+\addbibresource{~/latex-templates/biblio.bib}                % path to bibliography base
+
+\usepackage{titleps} % add headers support
+\newpagestyle{main}{
+\setheadrule{0.4pt}
+\sethead{лево}{центр}{право}
+\setfootrule{0.4pt}
+\setfoot{лево}{\thepage}{право}
+}
+\pagestyle{main}
+
+\usepackage{soulutf8} % add style mods
