@@ -1,40 +1,100 @@
-% xelatex
-\documentclass{article}
+\input{$HOME/latex-templates/preamble_article_rus.tex} % here is document's settings for russian
+%\input{$HOME/latex-templates/preamble_article_eng.tex} % here is document's settings for english
 
-\usepackage[utf8]{inputenc}
-\usepackage{fontspec}
-\setmainfont{Brill}
-
-\usepackage{ot-tableau}
-\usepackage[backend=biber, style=authoryear-icomp]{biblatex}
-\usepackage{easylist}
-\usepackage{hanging}
-\usepackage{hyperref}
-\usepackage{blindtext}
-\usepackage{tipa}
-\usepackage{cgloss4e}
-\usepackage{gb4e}
-\usepackage{qtree}
-\usepackage{enumerate}
-\usepackage{longtable}
-\usepackage{textgreek}
-\addbibresource{$HOME/Documents/LaTeX/uni.bib}
-
-
-\title{<++>}
-\author{<++>}
+\title{\so{MEIN REZEPTBUCH}}
+\author{max-wn}
+\date{April 12, 1961}
 
 \begin{document}
 
 \maketitle
+\tableofcontents
 
+\section{Abstract}
 \begin{abstract}
-<++>
+    This is some text! This is some text! This is some text! This is some
+    text! This is some text! This is some text! This is some text! This is
+    some text! This is some text! This is some text! This is some text! This
+    is some text! This is some text! This is some text! This is some text!
 \end{abstract}
 
-<++>
+\section{Some text and formating}
+    This is some text! This is some text! This is some text! This is some
+    text! This is some text! This is some text! This is some text! This is
+    some text! This is some text! This is some text! This is some text! This
+    is some text! This is some text! This is some text! This is some text!
 
+    This is some text! This is some text! This is some text! This is some
+    text! This is some text! This is some text! This is some text! This is
+    some text! This is some text! This is some text! This is some text! This
+    is some text! This is some text! This is some text! This is some text!
 
+\subsection{Formating}
+\textbf{some bold text}
+\textit{some italic text}
+\emph{some emphatic text}
+\underline{some underline text}
+
+\subsection{Quotation}
+``some text with quotation marks'' and  <<some text with quotation marks>>
+
+%\newpage
+
+\subsection{Pictures}
+This is a picture:
+\begin{figure}[!hbtp]
+    \begin{center}
+    \includegraphics[width=0.8\textwidth]{~/Pictures/Screenshots/001.png}
+    \end{center}
+    \caption{This is a test picture.\label{Picture_example}}
+\end{figure}
+
+%\newpage
+
+\section{Lists\label{List_examples}}
+
+\subsection{Ordered list}
+\begin{enumerate}
+    \item item1
+        \begin{enumerate}
+            \item item1.1
+        \end{enumerate}
+    \item item2
+    \item item3
+\end{enumerate}
+
+\subsection{An unordered list}
+\begin{itemize}
+    \item item1
+        \begin{itemize}
+            \item item1.1
+        \end{itemize}
+    \item item2
+    \item item3
+\end{itemize}
+
+\section{Lables}
+In section \ref{List_examples} I am talking about Lists. As
+\textcite{example1} says, use bibliograpy in \LaTeX{}! And this is a reference
+to ``Article'' : \textcite{example2}. Alsow see this book
+\parencite{example3}. About picture, see \ref{Picture_example}.
+
+\section{Formulas}
+This is a formula: $2 + 2 = 4$.
+
+This is an other formula:
+\[2 + 2 = 4\]
+
+These are formulas:
+\[\int_{-\infty}^{+\infty} e^{-\frac{x^2}{2}} = \sqrt{2 \pi}\]
+
+\[x_n, x^k, x_n^k, x^k_n, x_{i + j}^{2022}\]
+
+\[(x^i)^n\]
+
+\[x^{i^n}\]
+
+\listoffigures
 \printbibliography
 
 \end{document}
