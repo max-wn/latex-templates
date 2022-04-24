@@ -149,13 +149,12 @@ Click to Reveal Video.
 Part 2
 Click to Reveal Video.
 
- ------------------------------------------------------------------------------
+------------------------------------------------------------------------------
 
 
-Ссылки:
-[1]: http://lukesmith.xyz/dox/papers/luke_thesis.pdf (ссылка)
-[2]: http://lukesmith.xyz/dox/papers/prelim2.pdf (ссылка)
-[3]: http://lukesmith.xyz/pix/write.gif (изображение)
-[4]: https://miktex.org/download/#collapse264 (ссылка)
-[5]: https://tug.org/mactex/ (ссылка)
+[1]: http://lukesmith.xyz/dox/papers/luke_thesis.pdf "link"
+[2]: http://lukesmith.xyz/dox/papers/prelim2.pdf "link"
+[3]: http://lukesmith.xyz/pix/write.gif "image"
+[4]: https://miktex.org/download/#collapse264 "link"
+[5]: https://tug.org/mactex/ "link"
 
