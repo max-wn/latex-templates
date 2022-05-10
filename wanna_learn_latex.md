@@ -1,10 +1,11 @@
+## Article 1
+
 LUKE SMITH: blog
 Wanna learn LaTeX?
 Fri, 12 Feb 2021 22:44:31 +0300
-[sourse](https://lukesmith.xyz/articles/latex.html)
+[Source](https://lukesmith.xyz/articles/latex.html)
 
-Wanna learn LaTeX?
-------------------
+### Wanna learn LaTeX?
 
 What is LaTeX?
 
@@ -101,7 +102,8 @@ First thing to learn is how to compile documents with pdflatex and the basic
 principles of the TeX lanugage. In this first video, I talk about how basic
 text, paragraphs, titles, headings and more work. This in itself is enough to
 make a professional write-up.
-Click to Reveal Video.
+
+[Video](https://www.youtube.com/watch?v=25LExaNtdF0&list=PL-p5XmQHB_JSQvW8_mhBdcwEyxdVX0c1T&index=3)
 
 Numbering and cross-referencing
 
@@ -117,39 +119,60 @@ Bibliography management is a huge plus in LaTeX through biber. I haven't written
 a bibliography in more than half a decade due to the fact that LaTeX only needs
 a bibliography file of metadata and autogenerates citations for any needed
 source.
-Click to Reveal Video.
+
+[Video](https://www.youtube.com/watch?v=46piog3Fzp4&list=PL-p5XmQHB_JSQvW8_mhBdcwEyxdVX0c1T&index=4)
 
 Images and Figures
 
 TeX isn't all text either. You can insert and nicely format images in a way that
 they are optimally placed without too much human interference.
-Click to Reveal Video.
+
+[Video](https://www.youtube.com/watch?v=zgThRPjy-vw&list=PL-p5XmQHB_JSQvW8_mhBdcwEyxdVX0c1T&index=7)
 
 Macros to make things easy
 
 As you do more specific things, you might want to make your own macros and
 functions. This really makes things easier, and you can do very complex things
 very elegantly.
-Click to Reveal Video.
+
+[Video](https://www.youtube.com/watch?v=rvgP7IMeUn8&list=PL-p5XmQHB_JSQvW8_mhBdcwEyxdVX0c1T&index=9)
 
 Slide Presentations with Beamer
 
 LaTeX isn't just for printable documents either. You can change your document
 into a Beamer presentation, allowing you to present it as a slide show similar
 to Microsoft PowerPoint's.
-Click to Reveal Video.
+
+[Video](https://www.youtube.com/watch?v=zEjBCQhND2c&list=PL-p5XmQHB_JSQvW8_mhBdcwEyxdVX0c1T&index=8)
 
 Making a Professional Résumé
 
 Here, I also give some extra pointers while I make a résumé.
 
 Part 1
-Click to Reveal Video.
+
+[Video](https://www.youtube.com/watch?v=VjsX4tznW40&list=PL-p5XmQHB_JSQvW8_mhBdcwEyxdVX0c1T&index=5)
 
 Part 2
-Click to Reveal Video.
+
+[Video](https://www.youtube.com/watch?v=o5-BZ7JmYWk&list=PL-p5XmQHB_JSQvW8_mhBdcwEyxdVX0c1T&index=6)
+
+## Article 2
+
+### MIPT tutorial
+
+There is a good LATEX tutorial from MIPT community.
+
+[Text version in pdf format](https://github.com/MIPT-Group/Lectures_Tex_Club/tree/master/Course)
+
+[Video](https://www.youtube.com/playlist?list=PL4_hYwCyhAvZtx63FR9d5_K0GMWF1XUc6)
+
+[Source](https://mipt-ltc.github.io/latex/)
+
 
 ------------------------------------------------------------------------------
+
+THE END
 
 
 [1]: http://lukesmith.xyz/dox/papers/luke_thesis.pdf "link"

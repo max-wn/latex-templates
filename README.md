@@ -1,4 +1,4 @@
-# My LaTeX Templates and Build Files
+## My LaTeX Templates and Build Files
 
 My LaTeX templates. You can also find my compiled bibliography sheet.
 
@@ -8,9 +8,9 @@ So far I have templates for the following:
 + Beamer with unique dark and colorful formatting
 + A syllabus template
 + A handout template
-+ My CV/résumé
++ CV/résumé template
 + The glossa stylesheet for biblatex
-+ My (big) bibliography file
++ Bibliography file
 
 
 Of course, now that these are on Github, I'll probably be beautifying them a bit as I go on.
