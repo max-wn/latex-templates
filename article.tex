@@ -74,10 +74,24 @@ This is a picture:
 \end{itemize}
 
 \section{Lables}
-In section \ref{List_examples} I am talking about Lists. As
-\textcite{example1} says, use bibliograpy in \LaTeX{}! And this is a reference
-to ``Article'' : \textcite{example2}. Alsow see this book
-\parencite{example3}. About picture, see \ref{Picture_example}.
+In section \ref{List_examples} I am talking about Lists.
+About picture, see \ref{Picture_example}.
+
+\section{Bibliography management}
+As \parencite{example_book} says, use bibliograpy in \LaTeX{}! And this is a
+reference to ``Article'' : \parencite{example_article}. Alsow see this book
+\parencite{example_incollection}.
+
+Using \texttt{biblatex} you can display a bibliography divided into sections,
+depending on citation type.  Let's cite! Einstein's journal paper
+\parencite{example_article} and Dirac's book \parencite{example_book} are
+physics-related items.
+
+Next, \textit{The \LaTeX\ Companion} book
+\parencite{example_book}, Donald Knuth's website \parencite{example_online}, \textit{The
+Bite Of Python} \parencite{byteofpython} are \LaTeX-related
+items; but the others, Donald Knuth's items, \cite{example_inbook} are
+dedicated to programming.
 
 \section{Formulas}
 This is a formula: $2 + 2 = 4$.
