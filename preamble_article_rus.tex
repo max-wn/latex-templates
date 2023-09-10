@@ -1,11 +1,13 @@
+% template - preamble for article
 \documentclass[a4paper,12pt]{article} % format of document
 
 \usepackage[english,russian]{babel} % add eng,rus(base) package
 \usepackage[T1,T2A]{fontenc}        % add eng,rus encoding support
 \usepackage[utf8]{inputenc}         % add UTF8 support
-
-% Use it for English document
-%\usepackage[utf8]{inputenc} % add UTF8 support
+\usepackage{soul}                   % add l a t t r s p a c i n g
+\usepackage{longtable}              % To display tables on several pages
+\usepackage{booktabs}               % For prettier tables -> does not work
+\usepackage{enumitem}               % advanced lists support
 %\usepackage{fontspec}       % to use any font known to the operating system
 %\setmainfont{PT Serif}      % set defolt font
 
@@ -21,15 +23,19 @@
 \setlength{\parindent}{20pt} % red str
 \setlength{\parskip}{12pt}   % length between paragraphs
 
-\usepackage[
-backend=biber,
-style=authoryear-icomp
-]{biblatex} % add bibliography support
-\addbibresource{$HOME/latex-templates/biblio.bib}  % path to bibliography base
+\usepackage[backend=biber, style=authoryear-icomp]{biblatex} % add bibliography support
+\addbibresource{$HOME/latex-templates/biblio.bib}            % path to bibliography base
+\usepackage{csquotes}                                        % advanced facilities for inline and display quotations
 
 \usepackage{indentfirst} % first paragraph with red str
 
-\usepackage{soulutf8} % add style modifications
-
 % Must be the last command into the preamble of document.
 \usepackage{hyperref} % All references in document turn into hyperlinks
+\hypersetup{
+unicode=true,      % Юникод в названиях разделов в PDF
+colorlinks=true,   % Цветные ссылки вместо ссылок в рамках
+linkcolor=blue,    % Внутренние ссылки
+citecolor=green,   % Ссылки на библиографию
+filecolor=magenta, % Ссылки на файлы
+urlcolor=blue,     % Ссылки на URL
+}

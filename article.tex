@@ -1,3 +1,4 @@
+% template - article
 \input{$HOME/latex-templates/preamble_article_rus.tex} % here is document's settings for russian
 %\input{$HOME/latex-templates/preamble_article_eng.tex} % here is document's settings for english
 
@@ -8,39 +9,32 @@
 \begin{document}
 
 \maketitle
-\tableofcontents
 
-\section{Abstract}
+\newpage
 \begin{abstract}
-    This is some text! This is some text! This is some text! This is some
-    text! This is some text! This is some text! This is some text! This is
-    some text! This is some text! This is some text! This is some text! This
-    is some text! This is some text! This is some text! This is some text!
+This is some text! This is some text! This is some text! This is some text! This is some text! This is some text! This is some text! This is some text! This is some text! This is some text! This is some text! This is some text! This is some text! This is some text! This is some text!
 \end{abstract}
 
-\section{Some text and formating}
-    This is some text! This is some text! This is some text! This is some
-    text! This is some text! This is some text! This is some text! This is
-    some text! This is some text! This is some text! This is some text! This
-    is some text! This is some text! This is some text! This is some text!
+\newpage
+\tableofcontents
 
-    This is some text! This is some text! This is some text! This is some
-    text! This is some text! This is some text! This is some text! This is
-    some text! This is some text! This is some text! This is some text! This
-    is some text! This is some text! This is some text! This is some text!
+\section{Sample of text formating}
+This is some text! This is some text! This is some text! This is some text! This is some text! This is some text! This is some text! This is some text! This is some text! This is some text! This is some text! This is some text! This is some text! This is some text! This is some text!
 
-\subsection{Formating}
+This is some text! This is some text! This is some text! This is some text! This is some text! This is some text! This is some text! This is some text! This is some text! This is some text! This is some text! This is some text! This is some text! This is some text! This is some text!
+
+\subsection{Samples of formating}
 \textbf{some bold text}
 \textit{some italic text}
 \emph{some emphatic text}
 \underline{some underline text}
 
-\subsection{Quotation}
+\subsection{Sample of quotation}
 ``some text with quotation marks'' and  <<some text with quotation marks>>
 
 %\newpage
 
-\subsection{Pictures}
+\subsection{Sample of pictures}
 This is a picture:
 \begin{figure}[!hbtp]
     \begin{center}
@@ -51,9 +45,9 @@ This is a picture:
 
 %\newpage
 
-\section{Lists\label{List_examples}}
+\section{Samples of lists\label{List_examples}}
 
-\subsection{Ordered list}
+\subsection{Sample of urdered list}
 \begin{enumerate}
     \item item1
         \begin{enumerate}
@@ -63,7 +57,7 @@ This is a picture:
     \item item3
 \end{enumerate}
 
-\subsection{An unordered list}
+\subsection{Sample of unordered list}
 \begin{itemize}
     \item item1
         \begin{itemize}
@@ -73,27 +67,17 @@ This is a picture:
     \item item3
 \end{itemize}
 
-\section{Lables}
-In section \ref{List_examples} I am talking about Lists.
-About picture, see \ref{Picture_example}.
+\section{Samples of lables}
+In section \ref{List_examples} I am talking about Lists. About picture, see \ref{Picture_example}.
 
-\section{Bibliography management}
-As \parencite{example_book} says, use bibliograpy in \LaTeX{}! And this is a
-reference to ``Article'' : \parencite{example_article}. Alsow see this book
-\parencite{example_incollection}.
+\section{Samples of bibliography management}
+As \parencite{example_book} says, use bibliograpy in \LaTeX{}! And this is a reference to ``Article'' : \parencite{example_article}. Alsow see this book \parencite{example_incollection}.
 
-Using \texttt{biblatex} you can display a bibliography divided into sections,
-depending on citation type.  Let's cite! Einstein's journal paper
-\parencite{example_article} and Dirac's book \parencite{example_book} are
-physics-related items.
+Using \texttt{biblatex} you can display a bibliography divided into sections, depending on citation type.  Let's cite! Einstein's journal paper \parencite{example_article} and Dirac's book \parencite{example_book} are physics-related items.
 
-Next, \textit{The \LaTeX\ Companion} book
-\parencite{example_book}, Donald Knuth's website \parencite{example_online}, \textit{The
-Bite Of Python} \parencite{byteofpython} are \LaTeX-related
-items; but the others, Donald Knuth's items, \cite{example_inbook} are
-dedicated to programming.
+Next, \textit{The \LaTeX\ Companion} book \parencite{example_book}, Donald Knuth's website \parencite{example_online}, \textit{The Bite Of Python} \parencite{byteofpython} are \LaTeX-related items; but the others, Donald Knuth's items, \cite{example_inbook} are dedicated to programming.
 
-\section{Formulas}
+\section{Samples of formulas}
 This is a formula: $2 + 2 = 4$.
 
 This is an other formula:
@@ -108,7 +92,14 @@ These are formulas:
 
 \[x^{i^n}\]
 
+\newpage
+\listoftables
 \listoffigures
 \printbibliography
+
+\newpage
+\appendix
+\section{Sample of appendix}
+This is some text! This is some text! This is some text! This is some text! This is some text! This is some text! This is some text! This is some text! This is some text! This is some text! This is some text! This is some text! This is some text! This is some text! This is some text!
 
 \end{document}
