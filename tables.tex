@@ -1,0 +1,31 @@
+\begin{longtable}[c]{||l|l|c||} % Replaces \begin{table}, alignment must be specified here (no more tabular)
+\caption{Name of the table}
+\label{tab:table-01} \\
+\hline
+\textbf{first} & \textbf{Second} & \textbf{third}\\
+\hline
+\endfirsthead % This denotes the end of the header, which will be shown on the first page onlyline
+\caption{\textit{(Продолжение)} Name of the table}\\
+\hline
+\textbf{first} & \textbf{second} & \textbf{third}\\
+\hline
+\endhead % Everything between \endfirsthead and \endhead will be shown as a header on every page
+\hline
+\textbf{X} & Y & Z \\
+\hline\hline
+\textbf{X} & & \\
+\hline
+    X & Y & Z \\
+\hline\hline
+\textbf{X} & & \\
+\hline
+    X & Y & Z \\
+\hline
+    X & & \\
+\hline
+X & Y & Z \\
+X & Y & Z \\
+X & Y & Z \\
+\hline\hline
+\hline
+\end{longtable}

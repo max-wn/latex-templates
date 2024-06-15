@@ -1,27 +1,11 @@
 % template - article
-\input{$HOME/latex-templates/preamble_article_rus.tex} % here is document's settings for russian
-%\input{$HOME/latex-templates/preamble_article_eng.tex} % here is document's settings for english
+% here is document's settings for russian uncoment here if you do not use 'main.tex'
+%\input{$HOME/latex-templates/preamble-article-rus.tex}
+% the same for english
+%\input{$HOME/latex-templates/preamble-article-eng.tex}
 
-\title{\so{MEIN REZEPTBUCH}}
-\author{max-wn}
-\date{April 12, 1961}
-
-\begin{document}
-
-\maketitle
-
-\newpage
-\begin{abstract}
-This is some text! This is some text! This is some text! This is some text! This is some text! This is some text! This is some text! This is some text! This is some text! This is some text! This is some text! This is some text! This is some text! This is some text! This is some text!
-\end{abstract}
-
-\newpage
-\tableofcontents
-
-\section{Sample of text formating}
-This is some text! This is some text! This is some text! This is some text! This is some text! This is some text! This is some text! This is some text! This is some text! This is some text! This is some text! This is some text! This is some text! This is some text! This is some text!
-
-This is some text! This is some text! This is some text! This is some text! This is some text! This is some text! This is some text! This is some text! This is some text! This is some text! This is some text! This is some text! This is some text! This is some text! This is some text!
+\subsection{Sample of text formating}
+This is test text.
 
 \subsection{Samples of formating}
 \textbf{some bold text}
@@ -29,25 +13,23 @@ This is some text! This is some text! This is some text! This is some text! This
 \emph{some emphatic text}
 \underline{some underline text}
 
+\so{SOME SO TEXT}
+
 \subsection{Sample of quotation}
 ``some text with quotation marks'' and  <<some text with quotation marks>>
-
-%\newpage
 
 \subsection{Sample of pictures}
 This is a picture:
 \begin{figure}[!hbtp]
     \begin{center}
-    \includegraphics[width=0.8\textwidth]{~/Pictures/Screenshots/001.png}
+    \includegraphics[width=0.8\textwidth]{pics/astro-ship-engener.png}
     \end{center}
     \caption{This is a test picture.\label{Picture_example}}
 \end{figure}
 
-%\newpage
+\subsection{Samples of lists\label{List_examples}}
 
-\section{Samples of lists\label{List_examples}}
-
-\subsection{Sample of ordered list}
+\subsubsection{Sample of ordered list}
 \begin{enumerate}
     \item item1
         \begin{enumerate}
@@ -57,7 +39,7 @@ This is a picture:
     \item item3
 \end{enumerate}
 
-\subsection{Sample of unordered list}
+\subsubsection{Sample of unordered list}
 \begin{itemize}
     \item item1
         \begin{itemize}
@@ -67,17 +49,17 @@ This is a picture:
     \item item3
 \end{itemize}
 
-\section{Samples of lables}
+\subsection{Samples of lables}
 In section \ref{List_examples} I am talking about Lists. About picture, see \ref{Picture_example}.
 
-\section{Samples of bibliography management}
-As \parencite{example_book} says, use bibliograpy in \LaTeX{}! And this is a reference to ``Article'' : \parencite{example_article}. Alsow see this book \parencite{example_incollection}.
+\subsection{Samples of bibliography management}
+As \parencite{example-book} says, use bibliograpy in \LaTeX{}! And this is a reference to ``Article'' : \parencite{example-article}. Alsow see this book \parencite{example-incollection}.
 
-Using \texttt{biblatex} you can display a bibliography divided into sections, depending on citation type.  Let's cite! Einstein's journal paper \parencite{example_article} and Dirac's book \parencite{example_book} are physics-related items.
+Using \texttt{biblatex} you can display a bibliography divided into sections, depending on citation type.  Let's cite! Einstein's journal paper \parencite{example-article} and Dirac's book \parencite{example-book} are physics-related items.
 
-Next, \textit{The \LaTeX\ Companion} book \parencite{example_book}, Donald Knuth's website \parencite{example_online}, \textit{The Bite Of Python} \parencite{byteofpython} are \LaTeX-related items; but the others, Donald Knuth's items, \cite{example_inbook} are dedicated to programming.
+Next, \textit{The \LaTeX\ Companion} book \parencite{example-book}, Donald Knuth's website \parencite{example-online}, \textit{The Bite Of Python} \parencite{chitlur2014} are \LaTeX-related items; but the others, Donald Knuth's items, \cite{example-inbook} are dedicated to programming.
 
-\section{Samples of formulas}
+\subsection{Samples of formulas}
 This is a formula: $2 + 2 = 4$.
 
 This is an other formula:
@@ -91,15 +73,3 @@ These are formulas:
 \[(x^i)^n\]
 
 \[x^{i^n}\]
-
-\newpage
-\listoftables
-\listoffigures
-\printbibliography
-
-\newpage
-\appendix
-\section{Sample of appendix}
-This is some text! This is some text! This is some text! This is some text! This is some text! This is some text! This is some text! This is some text! This is some text! This is some text! This is some text! This is some text! This is some text! This is some text! This is some text!
-
-\end{document}
